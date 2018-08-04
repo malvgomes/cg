@@ -1,0 +1,49 @@
+Jogo AGAR-DOOM, feito por Matheus Alves Gomes
+
+Instruções:
+	-Setas direcionais: movem o Cacodemon pela tela e navegam pelos menus
+	-Tecla 'p' na tela de jogo: Pausa o jogo
+
+Objetivos:
+	-Escape das chamas enquanto busque se alimentar, pois a cada segundo sua massa diminui. 
+	-Cada comida vale 1 ponto.
+	-Tente ficar grande o suficiente até que seja impossível desviar das chamas
+    -Tente obter a pontuação máxima!
+	-Divirta-se!
+
+Adicionais:
+	-Fases infinitas
+	-Perda de massa
+	-Texturas
+	-Texturas animadas
+	-Fundo animado
+	-HUD
+	-Pontuação
+	-Música de fundo
+	-Efeitos sonoros
+	-Telas
+	-Vídeo: https://www.youtube.com/watch?v=7XdDY5T5l0M
+
+Informações:
+	-Trilha sonora adquirida em: http://sc55.duke4.net/games.php#doom
+	-Efeitos sonoros adquiridos em: http://www.wolfensteingoodies.com/archives/olddoom/music.htm
+	-Sprites: http://doomfansite.synthasite.com/doom-sprites.php
+	-Imagem de fundo: http://pixeljoint.com/pixelart/83207.htm
+	-Chama: https://static1.squarespace.com/static/527d6f81e4b0bffa49a86e6c/t/530ec43de4b0b523b9c51e9a/1393476689187/Fishman-Fireball-v2-copy.gif
+	-Backgrounds: https://wall.alphacoders.com/by_sub_category.php?id=227837
+	-Pause e GameOver: http://wallpapersafari.com/w/3Z1fep/
+	-Fontes: https://www.doomworld.com/forum/topic/59782-is-there-a-doom-font-generator-using-font-from-the-game/ (Post de Nick Perrin)
+
+	-Para a separação dos spritesheets, fiz o uso do site: https://www.leshylabs.com/apps/sstool/
+	-Para a separação dos gifs em frames, usei o site: http://www.piskelapp.com/
+    -Outros retoques nas imagens foram feitos utilizando a ferramenta de edição de imagens GIMP
+
+Instruções de compilação
+    -Primeiramente, precisa-se instalar o OpenGl. Esse tutorial mostra como: https://www.youtube.com/watch?v=2vukNNR9w2U&t=37s
+	-É necessário ter as bibliotecas SOIL, SDL E SDL_mixer
+	-Comandos para instalação SDL: 	sudo apt-get update
+									sudo apt-get install libsdl2-2.0
+									sudo apt-get install libsdl2-dev
+									sudo apt-get install libsdl-mixer1.2-dev
+	-Comandos para instalação SOIL: sudo apt-get install libsoil-dev
+	-Pronto. Para compilar e executar, é só inserir o comando make run pelo terminal na pasta do jogo.

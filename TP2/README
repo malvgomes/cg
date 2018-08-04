@@ -1,0 +1,35 @@
+Trabalho Casa na Árvore, feito por Matheus Alves Gomes
+
+-Vídeo: https://youtu.be/MiT6ZLL1-s4
+
+Instruções:
+	-Setas direcionais: movem a câmera
+	-w: Move o personagem para frente
+	-s: Move o personagem para tras
+    -m: Abre a porta
+    -n: Fecha a Porta
+
+Adicionais:
+	-Head Bobbing
+	-Luz Pontual(Sol e lua)
+	-Dia/Noite
+
+Informações:
+	-Textura da porta retirada de: http://pezcame.com/ZG9vciB0ZXh0dXJlIHBuZw/
+	-Textura da grama: https://opengameart.org/node/7787
+	-Parede de dentro: http://www.patternpictures.com/wp-content/uploads/2014/05/PP00411913-Subtle-plaster-concrete-yellow-wall.jpg
+	-Telhado: http://www.plaintextures.com/modules/picturefilter.php?preview=Rh%2FeWjym8W9B0dlGVIX7VrtQhWR4YlaK9lz%2BrckEBJjyGItP2ACv6%2B0APHa88L1BFQh7J6GnDooqclp0iU7LVFYngHFXCxg3Df3RYtginenQSGeABRd2wCQqRIYeMpD5
+	-Parede de fora: http://www.tutorialsforblender3d.com/sites/default/files/Textures/Bricks/Textured/AlternatingBrick_1024.png
+	-Madeira: https://pre00.deviantart.net/0ab4/th/pre/f/2011/274/9/9/wood_texture_by_cloud9_by_cloudnineedits-d4bi2gs.png
+	-https://www.soundjay.com/door-sounds-1.html
+    -trilha sonora Undertale
+	
+Instruções de compilação
+    -Primeiramente, precisa-se instalar o OpenGl. Esse tutorial mostra como: https://www.youtube.com/watch?v=2vukNNR9w2U&t=37s
+	-É necessário ter as bibliotecas SOIL, SDL E SDL_mixer
+	-Comandos para instalação SDL: 	sudo apt-get update
+									sudo apt-get install libsdl2-2.0
+									sudo apt-get install libsdl2-dev
+									sudo apt-get install libsdl-mixer1.2-dev
+	-Comandos para instalação SOIL: sudo apt-get install libsoil-dev
+	-Pronto. Para compilar e executar, é só inserir o comando make run pelo terminal na pasta do jogo.
